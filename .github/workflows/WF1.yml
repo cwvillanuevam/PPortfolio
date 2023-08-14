@@ -46,7 +46,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@4.1.3
         with:
           branch: main
-          folder: .\Portfolio
+          folder: .
           # token: ${{ secrets.MI_VARIABLE_ENVIRONMENT }}
           username: ${{ secrets.GHU }}
           password: ${{ secrets.GHP }}

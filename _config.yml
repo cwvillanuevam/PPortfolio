@@ -31,7 +31,7 @@ url: "https://cwvillanuevam.github.io" # the base hostname & protocol for your s
 github_username:  cwvillanuevam
 
 # Build settings
-theme: minima
+theme: minimal-mistakes-jekyll
 plugins:
   - jekyll-feed
 
@@ -54,4 +54,4 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-theme: minimal-mistakes-jekyll
+

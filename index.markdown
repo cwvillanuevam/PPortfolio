@@ -5,9 +5,9 @@
 layout: home
 header:
   overlay_image: /_Images/HomeImg.png
-  caption: "Photo generated with AI: [**Microsoft Designer**](https://designer.microsoft.com/invite)"
+  caption: "Image generated with AI: [**Microsoft Designer**](https://designer.microsoft.com/invite) &[**Draw.io**](https://app.diagrams.net/)"
   actions:
     - label: "More Info"
-      url: "https://unsplash.com"
+      url: "https://www.howtogeek.com/855327/what-is-microsoft-designer-and-how-do-you-get-started/"
 ---
 

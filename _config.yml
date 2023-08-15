@@ -141,6 +141,11 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://twitter.com/vmcwyller"
+    - "https://facebook.com/carloswyller.villanuevamachado.3/"
+    - "https://www.linkedin.com/in/carlos-wyller-villanueva-machado-559a75116/"
+    - "https://github.com/cwvillanuevam/"
+    - "https://antivize.wordpress.com/carlos-w-villanueva-machado/"
 
 # Analytics
 analytics:

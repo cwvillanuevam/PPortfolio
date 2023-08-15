@@ -284,6 +284,8 @@ plugins:
   - jekyll-gist
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-archives
+
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -338,7 +340,7 @@ defaults:
       path: ""
       type: posts
     values:
-      # layout: single
+      layout: archive
       author_profile: true
       read_time: true
       comments: # true
@@ -356,6 +358,6 @@ defaults:
     path: ""
     type: pages
   values:
-    layout: "page"
+    layout: single
     author_profile: true
 

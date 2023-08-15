@@ -5,9 +5,11 @@
 layout: home
 header:
   overlay_image: /_Images/HomeImg.png
-  caption: "Image generated with AI: [**Microsoft Designer**](https://designer.microsoft.com/invite) &[**Draw.io**](https://app.diagrams.net/)"
+  overlay_filter: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 255, 255, 0.5))
+  caption: "Image generated with AI: [**Microsoft Designer**](https://designer.microsoft.com/invite) & [**Draw.io**](https://app.diagrams.net/)"
   actions:
     - label: "More Info"
-      url: "https://www.howtogeek.com/855327/what-is-microsoft-designer-and-how-do-you-get-started/"
+      url: "https://github.com/cwvillanuevam/PPortfolio/"
+author_profile: false
 ---
 

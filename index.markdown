@@ -5,7 +5,7 @@
 layout: home
 header:
   overlay_image: /_Images/HomeImg.png
-  overlay_filter: linear-gradient(rgba(0, 0, 255, 0.5), rgba(0, 255, 255, 0.5))
+  overlay_filter: linear-gradient(rgba(0, 255, 255, 0.5), rgba(95, 0, 95, 0.5))
   caption: "Image generated with AI: [**Microsoft Designer**](https://designer.microsoft.com/invite) & [**Draw.io**](https://app.diagrams.net/)"
   actions:
     - label: "More Info"

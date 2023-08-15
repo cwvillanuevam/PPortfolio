@@ -1,7 +1,8 @@
 ---
-Layout: pages
+Layout: archive
 title: "Projects"
 permalink: /Projects/
+author_profile: true
 ---
 The Personal laboral Projects are:
 <hr>

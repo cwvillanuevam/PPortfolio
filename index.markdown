@@ -3,5 +3,11 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
+header:
+  overlay_image: /_Images/HomeImg.jpg
+  caption: "Photo generated with AI: [**Microsoft Designer**](https://designer.microsoft.com/invite)"
+  actions:
+    - label: "More Info"
+      url: "https://unsplash.com"
 ---
 

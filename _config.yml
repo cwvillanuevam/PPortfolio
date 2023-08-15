@@ -161,7 +161,7 @@ author:
   avatar           : "/_Images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "D. Sc. Energy - Analyst, Engineering Project"
   location         : "Lima, Perú"
-  email            : "cwvillanuevam@uni.pe"
+  # email            : "cwvillanuevam@uni.pe"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"

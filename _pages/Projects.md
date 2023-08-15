@@ -1,5 +1,6 @@
 ---
 Layout: archive
+type: posts
 title: "Projects"
 permalink: /Projects/
 author_profile: true

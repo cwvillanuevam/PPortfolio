@@ -158,7 +158,7 @@ analytics:
 # Site Author
 author:
   name             : "Villanueva Machado, Carlos Wyller"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/bio-photo.jpg"  # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "D. Sc. Energy - Analyst, Engineering Project"
   location         : "Lima, Perú"
   email            : "cwvillanuevam@uni.pe"

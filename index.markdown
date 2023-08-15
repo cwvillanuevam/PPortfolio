@@ -4,7 +4,7 @@
 
 layout: home
 header:
-  overlay_image: /_Images/HomeImg.jpg
+  overlay_image: /_Images/HomeImg.png
   caption: "Photo generated with AI: [**Microsoft Designer**](https://designer.microsoft.com/invite)"
   actions:
     - label: "More Info"

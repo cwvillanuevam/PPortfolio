@@ -13,15 +13,17 @@ header:
 author_profile: false
 ---
 {% for CVdata in site.data.CSVv2 %}
-
 {% if CVdata.Aim == "1" %}
 <h2> {{CVdata.Information}} </h2>
-<h3> {{CVdata.Condition}} </h3>
-<a>  : {{CVdata.Description}} </a>
+<h6> {{CVdata.Condition}} </h6>
+<a>  {{CVdata.Description}} </a>
 <br>
 <hr>
-<h2> Personal Information </h2>
 {% endif %}
+{% endfor %}
+
+<h2> Personal Information </h2>
+{% for CVdata in site.data.CSVv2 %}
 {% if CVdata.Personal_information == "1" %}
 <a> {{CVdata.Information}} : {{CVdata.Description}} | {{CVdata.Condition}}</a>
 <br>

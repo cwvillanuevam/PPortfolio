@@ -1,5 +1,5 @@
 ---
-Layout: single
+layout: single
 type: posts
 title: "Projects"
 permalink: /Projects/

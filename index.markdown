@@ -22,7 +22,6 @@ author_profile: false
 {% endif %}
 <hr>
 <h2> Personal Information </h2>
-{% for CVdata in site.data.CSVv2 %}
 {% if CVdata.Personal_information == "1" %}
 <a> {{CVdata.Information}} : {{CVdata.Description}} | {{CVdata.Condition}}</a>
 <br>

@@ -18,7 +18,7 @@ sidebar:
       "Data Anlysis\n"
       "Project Management\n"
       "Feasibility, operation and contingency studies\n"    
-  -title: " Degrees"
+  - title: " Degrees"
     text: |
       "Doctor of Sciencie with mention in Energy\n"
       "Master of Sciencie with mention in Energy\n"

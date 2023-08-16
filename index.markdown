@@ -15,14 +15,14 @@ author_profile: true
 sidebar:
   - title: "Expertise Skills"
     text: |
-      "Data Anlysis\n"
-      "Project Management\n"
-      "Feasibility, operation and contingency studies\n"    
+      "Data Anlysis"
+      "Project Management"
+      "Feasibility, operation and contingency studies"    
   - title: " Degrees"
     text: |
-      "Doctor of Sciencie with mention in Energy\n"
-      "Master of Sciencie with mention in Energy\n"
-      "Bachelor degree in Mechanical Electrtical Engineering\n"
+      "Doctor of Sciencie with mention in Energy"
+      "Master of Sciencie with mention in Energy"
+      "Bachelor degree in Mechanical Electrtical Engineering"
 ---
 {% for CVdata in site.data.CSVv2 %}
 {% if CVdata.Aim == "1" %}

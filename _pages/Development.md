@@ -8,7 +8,7 @@ author_profile: true
 <h1>Certified Academic and Professional Development</h1>
 {% for CVdata in site.data.CSVv2 %}
 {{CVdata.Information}} to {{CVdata.Condition}}
-{% if CVdata.Certified_Published == "1" %}
+{% if CVdata.Certified_Published == "1" and CVdata.Academic_Advancement == "1" %}
 <h2> {{CVdata.Information}} </h2>
 <h6> {{CVdata.Condition}} </h6>
 <a>  {{CVdata.Description}} </a>

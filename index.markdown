@@ -10,7 +10,18 @@ header:
   actions:
     - label: "More Info"
       url: "https://github.com/cwvillanuevam/PPortfolio/"
-author_profile: false
+author: Carlos Villanueva
+author_profile: true
+sidebar:
+  - title: "Expertise Skills"
+    text: "Data Anlysis"
+    text:  "Project Management"
+    text:  "Feasibility, operation and contingency studies"    
+  -title: " Degrees"
+    text: |
+      "Doctor of Sciencie with mention in Energy"
+      "Master of Sciencie with mention in Energy"
+      "Bachelor degree in Mechanical Electrtical Engineering"
 ---
 {% for CVdata in site.data.CSVv2 %}
 {% if CVdata.Aim == "1" %}

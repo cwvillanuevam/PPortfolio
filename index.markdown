@@ -14,7 +14,7 @@ author_profile: false
 ---
 {% for CVdata in site.data.CSVv2 %}
 
-{% if CVdata.Aims == "1" %}
+{% if CVdata.Aim == 1 %}
 <h2> {{CVdata.Information}} </h2>
 <h3> {{CVdata.Condition}} </h3>
 <a>  : {{CVdata.Description}} </a>

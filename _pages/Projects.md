@@ -1,5 +1,6 @@
 ---
-layout: single
+Layout: single
+type: posts
 title: "Projects"
 permalink: /Projects/
 author: Carlos Villanueva

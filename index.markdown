@@ -13,7 +13,7 @@ header:
 author_profile: false
 ---
 <h1> Personal Information </h1>
-<% for CVdata in site.data.CSV %>
+<% for CVdata in site.data.CSVv2 %>
 {{CVdata.Information}}
 #<li>
 #<% if {{CVdata.'Personal information'}} == 1 %>

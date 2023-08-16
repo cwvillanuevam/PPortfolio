@@ -12,10 +12,12 @@ header:
       url: "https://github.com/cwvillanuevam/PPortfolio/"
 author_profile: false
 ---
+
+<hr>
 <h2> Personal Information </h2>
 {% for CVdata in site.data.CSVv2 %}
 {% if CVdata.Personal_information == "1" %}
-<p> {{CVdata.Information}} : {{CVdata.Description}} | {{CVdata.Condition}}</p>
+<a> {{CVdata.Information}} : {{CVdata.Description}} | {{CVdata.Condition}}</a>
 <br>
 {% endif %}
 {% endfor %}

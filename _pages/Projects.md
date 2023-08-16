@@ -1,5 +1,5 @@
 ---
-Layout: archive
+Layout: single
 type: posts
 title: "Projects"
 permalink: /Projects/

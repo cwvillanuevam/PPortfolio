@@ -13,12 +13,13 @@ header:
 author_profile: false
 ---
 <h1> Personal Information </h1>
-<% for CVdata in site.data.CV %>
-<% if {{CVdata.'Personal information'}} == 1 %>
-<li>
-<h2> {{CVdata.Information}} : {{CVdata.Description}} | {{CVdata.Condition}}</h2>
-</li>
-<% endif %>
+<% for CVdata in site.data.CSV %>
+{{CVdata.Information}}
+#<li>
+#<% if {{CVdata.'Personal information'}} == 1 %>
+#<h2> {{CVdata.Information}} : {{CVdata.Description}} | {{CVdata.Condition}}</h2>
+#<% endif %>
+#</li>
 <% endfor %>
 
 

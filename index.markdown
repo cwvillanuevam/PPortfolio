@@ -19,9 +19,9 @@ author_profile: false
 <h3> {{CVdata.Condition}} </h3>
 <a>  : {{CVdata.Description}} </a>
 <br>
-{% endif %}
 <hr>
 <h2> Personal Information </h2>
+{% endif %}
 {% if CVdata.Personal_information == "1" %}
 <a> {{CVdata.Information}} : {{CVdata.Description}} | {{CVdata.Condition}}</a>
 <br>

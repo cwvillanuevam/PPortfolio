@@ -14,13 +14,10 @@ author: Carlos Villanueva
 author_profile: true
 sidebar:
   - title: "Expertise Skills"
-    text: "Data Anlysis"
-    text: "Project Management"
-    text: "Feasibility, operation and contingency studies"
+    text: "Data Anlysis, Project Management & Feasibility, operation and contingency studies"
   - title: " Degrees"
-    text: "Doctor of Sciencie with mention in Energy"
-    text: "Master of Sciencie with mention in Energy"
-    text: "Bachelor degree in Mechanical Electrtical Engineering"
+    text: |
+    "Doctor of Sciencie & Master of Sciencie with mention in Energy, Bachelor degree in Mechanical Electrtical Engineering"
 ---
 {% for CVdata in site.data.CSVv2 %}
 {% if CVdata.Aim == "1" %}

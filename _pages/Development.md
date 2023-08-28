@@ -10,10 +10,10 @@ author_profile: true
 {% for CVdata in site.data.CSVv2 %}
 {% if CVdata.Certified_Published == "1" and CVdata.Academic_Advancement == "1" %}
 {% if CVdata.end_date != "0"  %}
-<h5> {{CVdata.Information}} </h5>
+<h5> {{CVdata.Description}} </h5>
 <h7>{{CVdata.start_date}} - {{CVdata.end_date}} </h7>
-<h6> {{CVdata.Condition}} </h6>
-<a>  {{CVdata.Description}} </a>
+<h6> {{CVdata.Information}} </h6>
+<a>  {{CVdata.Condition}} </a>
 <br>
 <hr>
 {% endif %}
@@ -35,14 +35,19 @@ author_profile: true
 
 <h3>Uncertified (Practical) Academic and Professional Skills</h3>
 <!-- Personal Skills -->
-<h4> Personal Skill </h4>
+<h4> Personal Skills </h4>
 {% for CVdata in site.data.CSVv2 %}
 {% if CVdata.Practice == "1" and CVdata.Personal_skills == "1" %}
-<h5> {{CVdata.Information}} </h5>
-<h6> {{CVdata.Condition}} </h6>
-<a>  {{CVdata.Description}} </a>
-<br>
-<hr>
+<la>{{CVdata.Description}},</la>
 {% endif %}
 {% endfor %}
+<br>
+<!-- Technical Skills -->
+<h4> Technical skills  </h4>
+{% for CVdata in site.data.CSVv2 %}
+{% if CVdata.Practice == "1" and CVdata.Technical_skills == "1" %}
+<la>{{CVdata.Description}},</la>
+{% endif %}
+{% endfor %}
+<br>
 

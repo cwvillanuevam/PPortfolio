@@ -11,7 +11,7 @@ author_profile: true
 {% if CVdata.Certified_Published == "1" and CVdata.Academic_Advancement == "1" %}
 {% if CVdata.end_date != "0"  %}
 <h5> {{CVdata.Information}} </h5>
-<h7>{{CVdata.end_date}} - {{CVdata.end_date}} </h7>
+<h7>{{CVdata.start_date}} - {{CVdata.end_date}} </h7>
 <h6> {{CVdata.Condition}} </h6>
 <a>  {{CVdata.Description}} </a>
 <br>

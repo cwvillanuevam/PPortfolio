@@ -17,7 +17,8 @@ sidebar:
     text: "Data Anlysis, Project Management & Feasibility, operation and contingency studies"
   - title: " Degrees"
     text: |
-    "Doctor of Sciencie & Master of Sciencie with mention in Energy, Bachelor degree in Mechanical Electrtical Engineering"
+    "Doctor of Sciencie & Master of Sciencie with mention in Energy,"
+    "Bachelor degree in Mechanical Electrtical Engineering"
 ---
 {% for CVdata in site.data.CSVv2 %}
 {% if CVdata.Aim == "1" %}

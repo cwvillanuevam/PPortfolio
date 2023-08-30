@@ -50,4 +50,12 @@ author_profile: true
 {% endif %}
 {% endfor %}
 <br>
+<!-- Specialized softwares and tools -->
+<h4> Specialized softwares and tools  </h4>
+{% for CVdata in site.data.CSVv2 %}
+{% if CVdata.Practice == "1" and CVdata.Specialized_Tools_and_Software == "1" %}
+<la>{{CVdata.Description}},</la>
+{% endif %}
+{% endfor %}
+<br>
 

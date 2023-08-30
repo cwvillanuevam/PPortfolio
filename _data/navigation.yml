@@ -2,10 +2,12 @@
 main:
   - title: "Development"
     url: /Development/
-  - title: "About"
-    url: /about/
+  - title: "Skills"
+    url: /Skills/
   - title: "Projects"
     url: /Projects/
+  - title: "About"
+    url: /about/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"

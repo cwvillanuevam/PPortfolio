@@ -17,7 +17,7 @@ author_profile: true
 <h5> {{CVdata.Description}} </h5>
 <h7>{{CVdata.start_date}} - {{CVdata.end_date}} </h7>
 <h6> {{CVdata.Information}} </h6>
-<a>  {{CVdata.Condition}} </a>
+<a href="{{CVdata.url}}"> {{CVdata.url}} - {{CVdata.Condition}} </a>
 <br>
 <hr>
 {% endif %}

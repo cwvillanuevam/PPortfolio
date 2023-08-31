@@ -6,6 +6,8 @@ main:
     url: /Skills/
   - title: "Projects"
     url: /Projects/
+  - title: "Researches"
+    url: /Researches/
   - title: "About"
     url: /about/
   # - title: "Sample Collections"

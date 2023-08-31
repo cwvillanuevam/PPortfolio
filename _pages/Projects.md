@@ -17,7 +17,6 @@ author_profile: true
 <br>
 <hr>
 {% endif %}
-{% endif %}
 {% endfor %}
 
 <br>
@@ -32,6 +31,5 @@ author_profile: true
 <la>  {{CVdata.Condition}} </la>
 <br>
 <hr>
-{% endif %}
 {% endif %}
 {% endfor %}

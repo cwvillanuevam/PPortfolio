@@ -2,6 +2,9 @@
 layout: single
 title: "Personal, Technical and Specialized Skills"
 permalink: /Skills/
+header:
+  overlay_image: /_Images/Skills.png
+  overlay_filter: linear-gradient(rgba(0, 255, 255, 0.5), rgba(95, 0, 95, 0.5))
 author: Carlos Villanueva
 author_profile: true
 ---

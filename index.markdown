@@ -7,7 +7,7 @@ header:
   caption: "Professional portfolio"
   actions:
     - label: "Explore my work"
-      url: "{{ '/Projects/' | relative_url }}"
+      url: "/Projects/"
 author: Carlos Villanueva
 author_profile: true
 sidebar:

@@ -7,7 +7,7 @@ header:
   caption: "Professional portfolio"
   actions:
     - label: "Explore my work"
-      url: "/Projects/"
+      url: "{{ '/Projects/' | relative_url }}"
 author: Carlos Villanueva
 author_profile: true
 sidebar:
@@ -35,10 +35,10 @@ My work has involved technical and economic assessments of electricity systems, 
 
 Explore the portfolio for an overview of selected professional projects, academic research and technical capabilities. Descriptions are framed to communicate the methods and individual contributions while respecting confidentiality and ownership restrictions.
 
-- [Professional projects](/Projects/)
-- [Academic research](/Researches/)
-- [Technical skills](/Skills/)
-- [About me](/about/)
+- [Professional projects]({{ '/Projects/' | relative_url }})
+- [Academic research]({{ '/Researches/' | relative_url }})
+- [Technical skills]({{ '/Skills/' | relative_url }})
+- [About me]({{ '/about/' | relative_url }})
 
 ## Connect
 

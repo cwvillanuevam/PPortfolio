@@ -1,16 +1,10 @@
-# main links
+# Main navigation
 main:
-  - title: "Development"
-    url: /Development/
-  - title: "Skills"
-    url: /Skills/
-  - title: "Projects"
-    url: /Projects/
-  - title: "Researches"
-    url: /Researches/
   - title: "About"
     url: /about/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Professional Projects"
+    url: /Projects/
+  - title: "Academic Research"
+    url: /Researches/
+  - title: "Technical Skills"
+    url: /Skills/

@@ -1,4 +1,4 @@
-# Main navigation
+# Main navigation — English
 main:
   - title: "About"
     url: /about/
@@ -10,3 +10,16 @@ main:
     url: /Skills/
   - title: "Credentials & Training"
     url: /Development/
+
+# Main navigation — Spanish
+es:
+  - title: "Acerca de mí"
+    url: /es/sobre-mi/
+  - title: "Proyectos profesionales"
+    url: /es/proyectos/
+  - title: "Investigación académica"
+    url: /es/investigacion/
+  - title: "Competencias técnicas"
+    url: /es/habilidades/
+  - title: "Formación y credenciales"
+    url: /es/formacion/

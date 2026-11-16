@@ -10,16 +10,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4
       - name: Set up Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.0.2
+          ruby-version: 3.0.7
       - name: Install dependencies
         run: |
           gem install bundler
           bundle install
-          bundle update
       - name: Build the site
         run: bundle exec jekyll build
 #      - name: Add Ruby executables to PATH in shell config

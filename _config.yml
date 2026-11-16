@@ -18,13 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Personal Portfolio
+title: Energy Planning, Power Systems & Data Analytics
 email:
-description: >- # this means to ignore newlines until "baseurl:"
-  Personal Portfolio of Villanueva Machado, Carlos Wyller. D.Sc. Energy, Operation 
-  Analyst, Independent Consultant. Background in transmission and distrtibution 
-  electric power modelling, simulation and optimization. Distributed Generation
-  Renewable Energy modelling. Monte Carlo Simulation
+description: >-
+  Professional portfolio of Carlos Wyller Villanueva Machado, D.Sc. in Energy.
+  Experience in energy planning, power-system analysis, quantitative modelling,
+  technical-economic evaluation and data analytics.
 baseurl: "/PPortfolio" # the subpath of your site, e.g. /blog
 url: "https://cwvillanuevam.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -66,7 +65,7 @@ minimal_mistakes_skin    : "dark"  # "default", "air", "aqua", "contrast", "dark
 locale                   : "en-US"
 #title                    : "Site Title"
 title_separator          : "-"
-subtitle                 : "English version" # site tagline that appears below site title in masthead
+subtitle                 : "Professional portfolio" # site tagline that appears below site title in masthead
 name                     : "Villanueva Machado, Carlos Wyller"
 #description              : "Personal Portfolio Information."
 #url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -138,14 +137,12 @@ og_image                 : # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
-    - "https://twitter.com/vmcwyller"
-    - "https://facebook.com/carloswyller.villanuevamachado.3/"
+  type                   : Person
+  name                   : "Carlos Wyller Villanueva Machado"
+  links:
     - "https://www.linkedin.com/in/carlos-wyller-villanueva-machado-559a75116/"
     - "https://github.com/cwvillanuevam/"
-    - "https://antivize.wordpress.com/carlos-w-villanueva-machado/"
+    - "https://orcid.org/0000-0002-0925-2541"
 
 # Analytics
 analytics:
@@ -157,39 +154,33 @@ analytics:
 
 # Site Author
 author:
-  name             : "Villanueva Machado, Carlos Wyller"
-  avatar           : "/_Images/bio-photo.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "D. Sc. Energy - Analyst, Engineering Projectist"
-  location         : "Lima, Perú"
+  name             : "Carlos Wyller Villanueva Machado"
+  avatar           : "/_Images/bio-photo.jpg"
+  bio              : "Energy planning | Power systems | Quantitative modelling | Data analytics"
+  location         : "Lima, Peru"
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://antivize.wordpress.com/carlos-w-villanueva-machado/"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/vmcwyller"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/carloswyller.villanuevamachado.3/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/carlos-wyller-villanueva-machado-559a75116"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/cwvillanuevam/"
-    #- label: "Instagram"
-    #  icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/cwvillanuevam"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0002-0925-2541"
 
 # Site Footer
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: https://twitter.com/vmcwyller/
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/carloswyller.villanuevamachado.3/"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/carlos-wyller-villanueva-machado-559a75116"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/cwvillanuevam/"
+      url: "https://github.com/cwvillanuevam"
+    - label: "ORCID"
+      icon: "ai ai-orcid"
+      url: "https://orcid.org/0000-0002-0925-2541"
     #- label: "GitLab"
     #  icon: "fab fa-fw fa-gitlab"
       # url:
@@ -350,12 +341,10 @@ defaults:
 # End of Minimal mistakes github _config.yml file      
 
 
-defaults:
-  # _Pages
-  -scope:
-    path: ""
-    type: pages
-  values:
-    layout: single
-    author_profile: true
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 

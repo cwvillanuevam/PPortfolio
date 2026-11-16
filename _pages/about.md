@@ -22,6 +22,11 @@ My academic work has focused on optimisation and simulation of power systems, re
 
 ## Professional experience
 
+**Energy planning and data analytics | Ministry of Energy and Mines (MINEM), Peru | Current**
+- Contributes to energy-planning analysis, scenario-related work and the technical synthesis of energy-sector information.
+- Develops internal data-processing, automation and reporting workflows using Excel/VBA and Power BI.
+- This description is intentionally limited to the general nature of the role; it does not disclose institutional datasets, unpublished results or government-owned deliverables.
+
 **Power-system consulting and engineering studies**
 - Power-system database analysis and preparation of inputs for medium- and long-term studies.
 - Operational, power-flow and contingency studies, including pre-operational assessments.
@@ -38,3 +43,8 @@ My academic work has focused on optimisation and simulation of power systems, re
 I combine engineering judgement with quantitative methods, structured data analysis and reproducible modelling. I am particularly interested in roles that connect energy-sector strategy, power-system analysis, investment assessment and data-driven decision-making.
 
 This portfolio distinguishes professional experience from academic research and presents project descriptions at a level that respects confidentiality and ownership obligations.
+
+
+## Professional contact
+
+For professional opportunities and collaboration enquiries, please contact me through [LinkedIn](https://linkedin.com/in/carlos-wyller-villanueva-machado-559a75116).

@@ -40,8 +40,8 @@ Explore the portfolio for an overview of selected professional projects, academi
 - [Technical skills]({{ '/Skills/' | relative_url }})
 - [About me]({{ '/about/' | relative_url }})
 
-## Connect
+## Contact
 
-- [GitHub](https://github.com/cwvillanuevam)
-- [LinkedIn](https://linkedin.com/in/carlos-wyller-villanueva-machado-559a75116)
-- [ORCID](https://orcid.org/0000-0002-0925-2541)
+For professional enquiries, please contact me through [LinkedIn](https://linkedin.com/in/carlos-wyller-villanueva-machado-559a75116).
+
+You can also review my [GitHub profile](https://github.com/cwvillanuevam) and [ORCID record](https://orcid.org/0000-0002-0925-2541).

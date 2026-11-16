@@ -1,0 +1,72 @@
+{% capture logo_path %}{{ site.logo }}{% endcapture %}
+{% assign language_home = "/" %}
+{% assign language_navigation = site.data.navigation.main %}
+{% assign language_target = "/es/" %}
+
+{% if page.lang == "es" %}
+  {% assign language_home = "/es/" %}
+  {% assign language_navigation = site.data.navigation.es %}
+  {% assign language_target = "/" %}
+  {% case page.url %}
+    {% when "/es/sobre-mi/" %}{% assign language_target = "/about/" %}
+    {% when "/es/proyectos/" %}{% assign language_target = "/Projects/" %}
+    {% when "/es/investigacion/" %}{% assign language_target = "/Researches/" %}
+    {% when "/es/habilidades/" %}{% assign language_target = "/Skills/" %}
+    {% when "/es/formacion/" %}{% assign language_target = "/Development/" %}
+  {% endcase %}
+{% else %}
+  {% case page.url %}
+    {% when "/about/" %}{% assign language_target = "/es/sobre-mi/" %}
+    {% when "/Projects/" %}{% assign language_target = "/es/proyectos/" %}
+    {% when "/Researches/" %}{% assign language_target = "/es/investigacion/" %}
+    {% when "/Skills/" %}{% assign language_target = "/es/habilidades/" %}
+    {% when "/Development/" %}{% assign language_target = "/es/formacion/" %}
+  {% endcase %}
+{% endif %}
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        {% unless logo_path == empty %}
+          <a class="site-logo" href="{{ language_home | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
+        {% endunless %}
+        <a class="site-title" href="{{ language_home | relative_url }}">
+          {{ site.masthead_title | default: site.title }}
+          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+        </a>
+        <ul class="visible-links">
+          {%- for link in language_navigation -%}
+            <li class="masthead__menu-item">
+              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+            </li>
+          {%- endfor -%}
+          <li class="masthead__menu-item" aria-label="Language selector">
+            <span style="white-space: nowrap;">
+              {% if page.lang == "es" %}
+                <a href="{{ language_target | relative_url }}" lang="en" hreflang="en">EN</a>
+                <span aria-hidden="true"> | </span>
+                <strong lang="es" aria-current="page">ES</strong>
+              {% else %}
+                <strong lang="en" aria-current="page">EN</strong>
+                <span aria-hidden="true"> | </span>
+                <a href="{{ language_target | relative_url }}" lang="es" hreflang="es">ES</a>
+              {% endif %}
+            </span>
+          </li>
+        </ul>
+        {% if site.search == true %}
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].search_label | default: "Toggle search" }}</span>
+          <i class="fas fa-search"></i>
+        </button>
+        {% endif %}
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
